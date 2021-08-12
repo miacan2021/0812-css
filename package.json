@@ -1,0 +1,17 @@
+{
+  "name": "yuru-camp-responsive-design-starter-main",
+  "version": "1.0.0",
+  "description": "Starter files - Implement Responsive Design for Mobile Device",
+  "main": "index.js",
+  "scripts": {
+   "compile:sass":"node-sass css/style.scss css/style.css -w"
+   
+   
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

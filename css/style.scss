@@ -1,0 +1,49 @@
+@import "css/laptop";
+
+@media (max-width: 600px) {
+   #navbar{
+    overflow:hidden;
+
+     & .logo{
+      float: none;
+      text-align: center;
+     }
+     & ul{
+       float: none;
+       & li{
+        float: none;
+        & a{
+          padding: 10px;
+        }
+       }
+       
+     }
+
+    }
+
+   #showcase{
+     height: 500px;
+     & .showcase-content{
+       padding-top: 50px;
+     }
+   }
+    #home-info {
+    & .info-img {
+      display: none;
+    }
+    & .info-content {
+      width: 100%;
+      float: none;
+     
+    }
+  }
+  .box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+  }
+ 
+
+  }
+  
